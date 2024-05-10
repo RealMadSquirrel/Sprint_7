@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 07 22:01:17 MSK 2024","Tue May 07 22:01:17 MSK 2024","413","tests","test_login_courier","TestLoginCourier","","","Проверка успешной авторизации","Создание шаблонного курьера, проверка статуса ответа. Авторизация, удаление."
+"passed","Tue May 07 22:01:16 MSK 2024","Tue May 07 22:01:17 MSK 2024","337","tests","test_create_courier","TestCreateCourier","","","Проверка невозможности создать двух одинаковых курьеров","Запоминаем креды. Создаем курьера и пытаемся создать курьера с такими же кредами."
+"passed","Tue May 07 22:01:17 MSK 2024","Tue May 07 22:01:17 MSK 2024","126","tests","test_create_courier","TestCreateCourier","","","Проверка, что нельзя создать курьера с пустыми данными.","Проверка, что нельзя создать курьера с пустыми данными."
+"passed","Tue May 07 22:01:18 MSK 2024","Tue May 07 22:01:40 MSK 2024","22545","tests","test_order","TestOrder","","","Проверка получения списка товаров",""
+"passed","Tue May 07 22:01:17 MSK 2024","Tue May 07 22:01:18 MSK 2024","115","tests","test_login_courier","TestLoginCourier","","","Проверка авторизации c несуществующим пользователем","Авторизации c несуществующим пользователем, запрос возвращает ошибку"
+"passed","Tue May 07 22:01:17 MSK 2024","Tue May 07 22:01:17 MSK 2024","118","tests","test_login_courier","TestLoginCourier","","","Проверка авторизации с пустыми данными","Авторизация с пустыми данными"
+"passed","Tue May 07 22:01:16 MSK 2024","Tue May 07 22:01:16 MSK 2024","291","tests","test_create_courier","TestCreateCourier","","","Проверка успешности создания курьера","Создание шаблонного курьера, проверка статуса ответа и тела ответа"
