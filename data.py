@@ -24,3 +24,9 @@ class TestDataCreateOrder:
             "BLACK"
         ]
     }
+
+SUCCESS_CREATE_COURIER = '{"ok":true}'
+DOUBLE_COURIER = 'Этот логин уже используется. Попробуйте другой.'
+EMPTY_COURIER = 'Недостаточно данных для создания учетной записи'
+LOGIN_EMPTY_COURIER = 'Недостаточно данных для входа'
+LOGIN_NONEXISTENT_COURIER = 'Учетная запись не найдена'

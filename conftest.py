@@ -1,8 +1,11 @@
 import pytest
 import helper
+from helper import CourierFactory
+import allure
 
-''''@pytest.fixture(scope='function')
-def create_courier():
-    courier_response = helper.register_new_courier_and_return_login_password()
 
-    return courier_response'''
+@allure.step("Создание рандомного курьера")
+@pytest.fixture(scope='function')
+def create_creds_courier():
+    creds = helper.CourierFactory.register_new_courier_and_return_login_password()
+    return creds
